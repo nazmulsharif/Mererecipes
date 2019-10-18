@@ -2186,7 +2186,7 @@ h6.subheading-w3ls {
 
 @media only screen and (max-width: 459px) {
      .trophy{
-        width: 65%;
+        width: 70%;
      }
 }
 @media only screen and (min-width: 767px) {
@@ -2206,9 +2206,9 @@ h6.subheading-w3ls {
      }
      
 }
-@media only screen and (min-width: 365px){
+@media only screen and (min-width: 360px){
     .signup img{
-        width: 350px;
+        width: 340px;
      }
 }
 @media only screen and (min-width: 576px){
