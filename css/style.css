@@ -2008,7 +2008,7 @@ h6.subheading-w3ls {
      margin-right: 5px;
 }
 .dropdown-menu{
-    background-color: #000;
+    background-color: #2f0d0d;
     top:30px;
 }
 #ic img{
@@ -2179,6 +2179,15 @@ h6.subheading-w3ls {
 .main-menu li a{
     font-weight: bolder;
 }
+.social2 i{
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.social2 i:hover{
+    color: #000;
+}
 /*  My CSS  */
 
 
@@ -2186,7 +2195,26 @@ h6.subheading-w3ls {
 
 @media only screen and (max-width: 459px) {
      .trophy{
-        width: 70%;
+        width: 100%;
+        text-align: center;
+     }
+     .trophy i{
+        font-size: 15px;
+        margin-right: 4px;
+     }
+     .social{
+        width: 100%;
+        text-align: center;
+
+     }
+}
+@media only screen and (max-width: 768px) {
+     .navbar-nav{
+        margin-right: 15%!important;
+        margin-top: 10px!important;
+     }
+     .navbar-nav li{
+        font-size: 20px;
      }
 }
 @media only screen and (min-width: 767px) {
@@ -2238,6 +2266,9 @@ h6.subheading-w3ls {
 }
 .trophy li{
     font-weight: bolder;
+}
+@media only screen and (max-width:576px ){
+   
 }
 
 
